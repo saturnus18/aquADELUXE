@@ -1,0 +1,307 @@
+@media only screen and (max-width : 3000px) {
+	
+}
+@media only screen and (max-width : 1663px) {
+	.main-section .line{
+		display: block !important;
+	}
+}
+@media only screen and (max-width : 1367px) {
+	
+	
+
+}
+	 
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+	
+	.premium-cont .text p{
+		font-size: 15px !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.phone.sec{
+	  display: none !important;
+	}
+	.phone{
+	  display: block !important;
+	}
+	.number p.def{
+		text-align: left !important;
+	}
+	.seven-section {
+	    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%) !important;
+	}
+	.cont-seven-sect{
+		margin-bottom: 60px;
+	}
+	.footer .number p.def{
+		text-align: right !important;
+	}
+
+
+	.navbar-collapse {
+	    border-top: none;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    width: 100%;
+	    left: 0;
+	    top: 60px;
+	    position: absolute;
+	    background: #fffffff2;
+	    z-index: 40;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		color: #fff;
+	}
+	.header-scrolled .navbar-collapse{
+		background-color: #fffffff2;
+	}
+	.collapse.in .navbar-nav, .collapsing .navbar-nav, .collapsing .phone, .collapse.in .phone{
+		padding: 0 35px;
+	}
+	.collapse.in .navbar-nav, .collapsing .navbar-nav{
+		padding-top: 15px;
+	}
+	.collapsing .phone, .collapse.in .phone{
+		padding-bottom: 25px;
+	}
+	.collapsing{
+		margin-top: 40px;
+	}
+	.collapse.in {
+	    display: block;
+	    margin-top: 40px;
+	}
+	.header-scrolled .navbar-dark .navbar-toggler{
+		color: #000;
+	}
+	.header-scrolled .collapse.in{
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    	box-shadow: 0px 4px 3px 0px rgb(0 0 0 / 30%);
+    	/*border-top: 1px solid #7d7d7d;*/
+	}
+	.nav-link{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #7d7d7d;
+	}
+	.phone{
+		padding-top: 1rem !important;
+	}
+	.btn.btn-primary{
+		width: 100%;
+	}
+	.premium-cont{
+		justify-content: center;
+	}
+	.premium-cont.sec{
+		padding-left: 35px;
+	}
+	.premium-cont.third{
+		padding-right: 25px;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  	.main-section{
+  		padding-top: 200px !important;
+  	}
+  	.main-btn{
+  		margin-top: 25px;
+  	}
+
+  	.main-btn{
+  		justify-content: center !important;
+  	}
+  	.fourth-section{
+  		margin-top: -90px !important;
+  	}
+  	.seven-section{
+  		padding-bottom: 70px !important;
+  	}
+}
+
+@media only screen and (max-width : 576px) {
+	.fourth-section{
+		margin-top: -125px !important;
+		background: url(../img/11.jpg) no-repeat center center !important;
+	}
+	.seven-section {
+	    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%) !important;
+	}
+	.img-main-cont{
+		display: flex;
+		justify-content: center !important;
+	}
+	.second-water-cnt .text{
+		text-align: center;
+		margin-top: 15px;
+	}
+	.second-water-cnt.sec .row{
+		flex-direction: column-reverse;
+	}
+	.text-right h4, .text-right p, .text-right{
+		text-align: center !important;
+	}
+	.six-section .img-four-cont img {
+	    width: 60% !important;
+	}
+	.six-section .img-four-cont .img-four{
+		text-align: center !important;
+	}
+
+}
+@media only screen and (max-width : 573px) {
+	
+}
+
+@media only screen and (max-width : 448px) {
+	.fourth-section {
+	    margin-top: -150px !important;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.filter-three, .filter-three-back{
+		height: 90px !important;
+	}
+	.filter-three-back{
+		bottom: 90px !important;
+	}
+	.filter-two, .filter-two-back{
+		height: 120px !important;
+	}
+	.filter-two-back{
+		bottom: 119px !important;
+	}
+	.drop-box {
+        background-size: 38% !important;
+    }
+    .filter-box  {
+    	-webkit-background-size: 100% !important;
+    	background-size: 100% !important;
+    	width: 100% !important;
+    	background-repeat: no-repeat !important;
+    }
+    .filter-box-back {
+    	-webkit-background-size: 100% !important;
+    	background-size: 100% !important;
+    	width: 100% !important;
+    	background-repeat: no-repeat !important;
+    	background-position: center bottom !important;
+    }
+    .scrolltop{
+		bottom: 30px !important;
+	    right: 30px !important;
+	    width: 40px !important;
+	    height: 40px !important;
+	}
+	.scrolltop .icon{
+		font-size: 27px !important;
+		margin-top: 3px !important;
+	}
+}
+@media only screen and (max-width : 432px) {
+	.description-box.six{
+		font-size: 25px !important;
+	}
+	.drop-block{
+		min-height: 420px !important;
+	}
+}
+@media only screen and (max-width : 406px) {
+	.cloud.third{
+		display: block !important;
+	}
+	.premium-cont {
+	    justify-content: flex-start !important;
+	}
+	.premium-cont.sec , .premium-cont.third {
+	    padding-left: 0px !important;
+	    padding-right: 0px !important;
+	}
+	.second-plane {
+	    top: 5.5rem;
+	}
+	.fourth-section .heading.margin{
+		margin-top: 160px !important;
+	}
+	
+}
+@media only screen and (max-width : 370px) {
+	.description-box.six {
+	    font-size: 22px !important;
+	}
+	.filter-five-back{
+		bottom: 65px !important;
+	}
+	.footer .number p{
+		font-size: 22px !important;
+	}
+	.footer .number p.def{
+		font-size: 14px !important;
+	}
+	.seven-section {
+	    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%) !important;
+	}
+	.eight-section h1, .first-text-block p{
+		font-size: 40px !important;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.img-cont{
+		padding-right: 10px !important;
+		margin-bottom: 10px !important;
+		padding: 0 !important;
+	}
+	.main-btn, .btn-cont{
+		width: 100% !important;
+	}
+	.insta-icon img {
+	    width: 85% !important;
+	}
+	.cloud.third{
+		display: block !important;
+	}
+	.second-section .text-btn {
+	    font-size: 11px !important;
+	}
+	.fourth-section .heading.margin{
+		margin-top: 130px !important;
+	}
+	.icon-recom img {
+	    width: 100% !important;
+	}
+	.footer {
+	    padding-top: 50px !important;
+	}
+	.collapse.in .navbar-nav, .collapsing .navbar-nav, .collapsing .phone, .collapse.in .phone {
+	    padding: 0 25px;
+	}
+	.collapsing .phone, .collapse.in .phone {
+	    padding-bottom: 15px;
+	}
+	.scrolltop{
+		bottom: 30px !important;
+	    right: 30px !important;
+	    width: 40px !important;
+	    height: 40px !important;
+	}
+	.scrolltop .icon{
+		font-size: 27px !important;
+		margin-top: 3px !important;
+	}
+	
+}
