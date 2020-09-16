@@ -1,0 +1,488 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+.vf-invalid::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.vf-invalid:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.vf-invalid::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.vf-invalid:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "MyriadProRegular";
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+
+
+h1,h2,h3,h4, b, strong {
+	font-weight: normal;
+}
+
+a,a:hover {
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+:focus {
+	outline:none;
+}
+
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+
+
+
+
+
+
+.dib {
+	display: inline-block;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
+
+
+.face {
+	position: absolute;
+	-webkit-backface-visibility: hidden; /*Обратная сторона карты будет скрыта после переворота*/
+}
+
+
+.back {
+	top: 0;
+	width: 100%; 
+	height: 320px; 
+	padding: 20px;
+	-webkit-transform: rotateY(180deg);
+	background: #fff; 
+	text-align: center;
+	font-family: "MyriadProItalic";
+	font-size: 14px;
+	-webkit-box-shadow: 0 0 25px rgba(0,0,0,.4);
+	box-shadow: 0 0 25px rgba(0,0,0,.4);
+}
+	
+
+.front {
+	z-index: 10;
+}
+
+
+.title {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "MyriadProBold";
+	color: #001d5c;
+	font-size: 48px;
+	line-height: 1.2;
+	background-color: #fff;
+}
+
+
+.reviews {
+	background: url(../img/bg-water-2.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 70px;
+}
+
+.reviews .title {
+	padding:50px 0;
+	margin: 0;
+}
+
+.reviews-box {
+	background-color: #fff;
+	padding: 25px;
+	margin-top: 160px;
+	padding-top: 85px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	font-family: "MyriadProItalic";
+	-webkit-box-shadow: 0 0 25px rgba(0,0,0,.2);
+	box-shadow: 0 0 25px rgba(0,0,0,.2);
+}
+
+.reviews-box img {
+	display: inline-block !important;
+	max-width: auto !important ;
+	width: auto !important;
+}
+
+.r-img {
+	position: absolute;
+	left: 50%;
+	display: inline-block;
+	width: 135px;
+	height: 135px;
+	overflow: hidden;
+	border-radius: 50%;
+	top: -67px;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	-webkit-box-shadow: 0 5px 7px rgba(0,0,0,.2);
+	box-shadow: 0 5px 7px rgba(0,0,0,.2);
+}
+
+
+.reviews .owl-dots {
+	text-align: center;
+	position: relative;
+	margin-top: 35px;
+}
+
+
+.reviews .owl-dot {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 3px;
+	background-color: #C7C7C7;
+}
+.reviews .owl-dot.active {
+	background-color: #001d5c;
+}
+
+.wrap-bg {
+	background: url(../img/bg-water-3.png) no-repeat center bottom;
+}
+
+.feedback {
+	min-height: 252px;
+	padding-bottom: 70px;
+}
+
+
+.feedback .title {
+	text-align: left;
+	margin-bottom: 0;
+	background: none;
+}
+
+.feedback .title + p {
+	color: #88898b;
+	font-family: "MyriadProItalic";
+}
+
+.feedback input {
+	width: 100%;
+	border-radius: 36px;
+	padding: 15px 0;
+	text-indent: 35px;
+	border: 2px solid #008d8e;
+	margin-bottom: 15px;
+}
+.feedback textarea {
+	width: 100%;
+	border-radius: 36px;
+	text-indent: 35px;
+	border: 2px solid #008d8e;
+	min-height: 250px;
+	padding: 25px 0;
+}
+.feedback .btn {
+	padding: 13px 55px;
+	margin-top: 15px;
+}
+.gallery {
+	margin-top: 70px;
+}
+
+.gallery .owl-dots {
+	text-align: center;
+	margin-top: 15px;
+}
+.gallery .owl-dot {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 3px;
+	background-color: #D1D1D1;
+}
+
+.drop-box {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top 150px;
+	z-index: 2;
+    
+}
+
+
+.drop-one{
+	background-image: url(../img/1.png);
+}
+
+.drop-two{
+	background-image: url(../img/2.png);
+}
+
+
+.drop-three{
+	background-image: url(../img/3.png);
+}
+
+
+.drop-four{
+	background-image: url(../img/4.png);
+}
+
+.drop-five{
+	background-image: url(../img/5.png);
+}
+
+
+.drop-six{
+	background: url(../img/6.png)no-repeat center top 150px fixed;
+}
+
+.drop-block {
+	position: relative;
+	min-height: 600px;
+	background-repeat: no-repeat;
+	background-position: center top 150px;
+	background-attachment: fixed;
+	z-index: 2;
+}
+.drop-block:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+	bottom: 50px;
+	height: 3px;
+	background-color: #BCBCBC;
+	position: absolute;
+	left: 0;
+}
+.glass-box {
+	width: 322px;
+	height: 513px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 4;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	background:#fff url(../img/glass.png) no-repeat center top;
+}
+
+.description-box  {
+	margin-top: 70px;
+}
+.description-box .num {
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #008d8e;
+	text-align: center;
+	font-size: 34px;
+	line-height: 60px;
+	font-family: "MyriadProCondBold";
+}
+
+.description-box  p {
+	font-size: 20px;
+	font-family: "MyriadProItalic";
+	line-height: 1.4;
+}
+.filter-box {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+.filter-box-back  {
+	content: '';
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);	
+	z-index: -1;	
+	display: inline-block;
+}
+
+
+
+.filter-one {
+	width: 538px;
+	height: 62px;
+	background: url(../img/f1-front.png);
+	z-index: 3;
+}
+.filter-one-back {
+	background: url(../img/f1-back.png);
+	height: 54px;
+	bottom: 54px;
+	width: 538px;
+}
+
+
+.filter-two {
+	width: 409px;
+	height: 103px;
+	background: url(../img/f2-front.png);
+	z-index: 3;
+}
+.filter-two-back {
+	background: url(../img/f2-back.png);
+	height: 94px;
+	bottom: 94px;
+	width: 409px;
+}
+
+
+.filter-three {
+	width: 389px;
+	height: 70px;
+	background: url(../img/f3-front.png);
+	z-index: 3;
+}
+.filter-three-back {
+	background: url(../img/f3-back.png);
+	height: 42px;
+	bottom: 70px;
+	width: 389px;
+}
+
+
+.filter-four {
+	width: 564px;
+	height: 80px;
+	background: url(../img/f4-front.png);
+	z-index: 3;
+}
+.filter-four-back {
+	background: url(../img/f4-back.png);
+	height: 57px;
+	bottom: 80px;
+	width: 564px;
+}
+
+
+.filter-five {
+	width: 409px;
+	height: 66px;
+	background: url(../img/f5-front.png);
+	z-index: 3;
+}
+.filter-five-back {
+	background: url(../img/f5-back.png);
+	height: 42px;
+	bottom: 66px;
+	width: 409px;
+}
+
+.drop-step-six {
+	min-height: 800px;
+}
+
+
+
+
