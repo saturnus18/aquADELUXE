@@ -28,6 +28,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.seven-section {
+    		background: url(../img/15.jpg) no-repeat !important;
+    		background-size: cover !important;
+	}
 	.phone.sec{
 	  display: none !important;
 	}
