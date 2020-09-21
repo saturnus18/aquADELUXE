@@ -196,8 +196,13 @@
 	}
 
 }
-@media only screen and (max-width : 573px) {
-	
+@media only screen and (max-width : 499px) {
+	.main-section{
+		background-size: cover !important;
+    		background-position: right bottom !important;
+    		background-repeat: no-repeat !important;
+		background: url(../img/38.png) no-repeat !important;
+	}
 }
 
 @media only screen and (max-width : 448px) {
