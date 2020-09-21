@@ -200,6 +200,9 @@
 	
 }
 @media only screen and (max-width : 499px) {
+	.img-sev img{
+		width: 40%;
+	}
 	.heading h1{
 		font-size: 30px !important;
 	}
